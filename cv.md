@@ -1,4 +1,5 @@
 # Denis Shagimardanov
+![](https://commonmark.org/help/images/favicon.png)
 ## Junior Frontend Developer
 ### Contact information:
 #### E-mail: denis.shagimardanov@gmail.com
