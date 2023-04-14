@@ -1,0 +1,74 @@
+.button {
+    display: inline-block;
+    padding: 15px 45px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    transition: background-color 0.3s ease 0s;
+}
+.button:hover {
+    background-color: #fae2d0;
+}
+.button_mod {
+    background-color: #F1CDB3 ;
+}
+.button_mod:hover {
+    background-color: #fae2d0;
+}
+.button__text {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.button__donation {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    transition: background-color 0.3s ease 0s;
+}
+.button:hover {
+    background-color: #fae2d0;
+}
+.button__donation-text {
+    color: #545454;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+}
+
+.button__round {
+    display: inline-block;
+    border-radius: 100px;
+    background: #F1CDB3;
+    padding: 14px 22px 15px 21px;
+}
+.button__round_mod {
+    display: inline-block;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    padding: 14px 20px 15px 19px;
+}
+.button__round2_mod {
+    display: inline-block;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    padding: 14px 13px 15px 12px;
+}
+.button__round_left {
+    display: inline-block;
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+    padding: 14px 20px 15px 19px;
+}
+.button__round2_left {
+    display: inline-block;
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+    padding: 14px 13px 15px 12px;
+}

@@ -1,0 +1,41 @@
+.help-shelter {
+background-color: #FFFFFF;
+}
+.help-shelter__container {}
+
+.help-shelter__block {
+    max-width: 310px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.icons-block {
+    display: grid;
+    grid-template-rows: 60px 23px;
+    grid-template-columns: 82px 150px 60px 153px 101px;
+    column-gap: 120px;
+    row-gap: 30px;
+    justify-items: center;
+    
+    padding: 60px 87px 0px;
+}
+.icons-block-bottom {
+    display: grid;
+    grid-template-columns: 89px 101px 165px 143px;
+    grid-template-rows: 60px 23px;
+    column-gap: 120px;
+    row-gap: 30px;
+    padding: 55px 171px 100px;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.signature-icons {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #545454;
+}

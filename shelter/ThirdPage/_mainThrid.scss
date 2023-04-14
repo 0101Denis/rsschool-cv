@@ -1,0 +1,49 @@
+.friends {
+    background: #F6F6F6;
+    padding: 80px 0px 100px 0px;
+}
+.friends__container {
+}
+.main-friends__block{
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.friends__body {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin: 60px 0px 30px 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    background: #FAFAFA;
+    
+}
+.signature {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    padding: 30px 0px 0px 0px;;
+}
+.signature:not(:first-child){
+    margin: 0px 0px 30px 0px;
+}
+.button__body {
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+

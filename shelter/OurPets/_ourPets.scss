@@ -1,0 +1,111 @@
+.header-our__logo {
+    color: #545454;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    padding-bottom: 10px;
+}
+.header-our__logo-subtitle {
+    color: #545454;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    padding-bottom: 0px;
+}
+.menu-our__link {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;    
+}
+.menu-our__link:hover{
+    text-decoration: underline;
+    text-decoration-color: #F1CDB3;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    transition: background-color 0.3s ease 0s;
+}
+
+.header-our {
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: #ffffff;
+}
+
+
+.shop {
+    padding: 80px 0px 45px 0px;
+    background: #F6F6F6;
+}
+.shop__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(2, 435px);
+    column-gap: 40px;
+    row-gap: 30px;
+    padding: 15px 0px;
+    justify-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+ [class*="box"]{
+    background: #FAFAFA;
+ }
+
+.more_buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 45px 430px 100px 430px;
+    justify-content: space-around;
+}
+
+.footer {
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+.footer__container {
+}
+.footer__content {
+    display: grid;
+    grid-template-columns: 278px 302px 300px;
+    grid-template-rows: 90px 46px 32px;
+    column-gap: 160px;
+    row-gap: 35px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.text__footer {
+    padding-top: 15px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    max-width: 276px;
+}
+h4 {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #F1CDB3;
+}
+h4:not(:first-child) {
+    margin: 40px 0px 0px 0px;
+}

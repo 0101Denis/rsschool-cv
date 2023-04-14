@@ -76,3 +76,5 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* Тут я убираю подчеркивание у ссылок */
+a {text-decoration: none;}

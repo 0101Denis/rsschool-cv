@@ -1,0 +1,66 @@
+.donation {
+    background-color: #F6F6F6;
+}
+.donation__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.donation-dog__media {
+    display: flex;
+    margin: 91px 5px 110px 183px;
+}
+.donation-dog__image {
+    width: 505px;
+    height: 261px;
+}
+.donation__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 50px 122px 100px 0px;
+    flex: 1 0 auto;
+}
+
+.block-text__donation {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #545454;
+max-width: 308px;
+}
+.block-text__donation:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+.subtitle__donation {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.subtitle__donation:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+
+.ims__icon {
+    display: inline-block;
+    align-items: center;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+h6 {
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #B2B2B2;
+max-width: 380px;
+}
+

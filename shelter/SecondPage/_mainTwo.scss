@@ -1,0 +1,42 @@
+.block-text__subtitleMain {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+.block-text__subtitleMain:not(:first-child){
+    margin: 25px 0px 0px 0px;
+}
+
+
+.inform {
+background: #FFFFFF;
+padding: 80px 0px 100px 0px;
+}
+.inform__container {
+display: flex;
+align-items: center;
+}
+.inform-dog__media {
+flex: 0 1 39.5%;
+padding: 0px 120px 0px 175px;
+}
+
+.inform__content {
+flex: 0 1 61.5%;
+max-width: 430px;
+}
+.media-inform-dog {
+    width: 300px;
+    height: 408px;
+    text-align: center;
+    position: relative;
+}
+.media-inform-dog__image {
+display: inline-block;
+position: relative;
+}
+.wbr-text {
+    max-width: 370px;
+}
